@@ -1,70 +1,64 @@
-# Welcome to Jekyll!
+# Site settings 配置站点
+title: '廖柯宇的独立博客'
+description: '昵称悟空，千禧一代，前端开发者/伪极客/灵魂摄影师，热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。'
+keyword: '廖柯宇, 廖柯宇的独立博客, 廖柯宇的博客, 前端, 前端开发, 前端博客, javascript, vuejs, nodejs, 设计'
+url: 'http://liaokeyu.com' # your host
+baseurl: '/'
 
-# Website settings
-title: Guorong's blog
-description: Jack's blog,use Jekyll and github pages.
-keywords: Jack,Jalpc,blog,Jekyll,github,gh-pages
-baseurl:  /zhuguorong11.github.io # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-url: https://jarrekk.github.io/Jalpc  # url should be 'http://<github_username>.github.io/homepage' as before
-# url: http://127.0.0.1:4000
-img_path: /zhuguorong11.github.io/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+# Navigation links
+nav:
+  home: '/'
+  tags: '/tags.html'
 
-# author -- index page "about me" section
-author:  # change following line to your infomation.
-  name: GitHub  # Be used at blog posts' author.
-  first_name: Hub  # Be used at index page about me section.
-  last_name: Git  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
-  github_username: jarrekk  # Leave blank if you don't have now
-  linkedin_id: jarrekk # Leave blank if you don't have now
-  facebook_username: jiakunnj  # Leave blank if you don't have now
-  twitter_username: jiakun614  # Leave blank if you don't have now
-  email: me@jarrekk.com  # Leave blank if you don't have now
-  cv: http://cv.jarrekk.com  # An online CV can be printed as PDF, leave blank if you don't have now
-  # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
-  skill_icon1:
-    - name: icon-apache
-    - name: fa-linux
-  skill_icon2:
-    - name: fa-linux
-    - name: icon-apache
-  desc: Introduce myself will be here.  # Describe yourself.
+# Author 配置博主信息
+author: '廖柯宇'
+nickname: '悟空'
+bio: '前端开发者，热爱技术&设计，简单乐观爱创造'
+avatar: 'assets/img/profile.png'
 
-# comment
-disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: jalpc
+# Search
+search: true
 
-# analytics
-## google analytics
-ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
-  # id:
+# Night mode
+nightMode: true
 
-## google optimize
-go:
-  # id:
+# Comments
+disqus: false
+disqus_url: 'https://liaokeyu.disqus.com/embed.js'
 
-## growingIO
-gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
-  # id:
+# Share
+social-share: true
+social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
 
-## donation
-donation: on  # type 'on'/'off' to choice display donation button at post page or not
+# theme color 主题皮肤
+theme-color: 'default'  # pink or default
 
-## carousels
-index_carousel: on  # index page carousel switch
-blog_carousel: on  # blog page carousel switch
+# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'circuitBoard'
 
-# scss
-sass:
-  style: compressed
+# SNS settings 配置社交网站url: weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+sns:
+  weibo: '//weibo.com/lovecolcol'
+  juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
+  instagram: '//www.instagram.com/steveliaocn'
+  github: '//github.com/kaeyleo'
+
+# Tags 设置标签
+recommend-tags: true # whether or not display recommend-tags on the sidebar
+recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
 
 # Build settings
-encoding: utf-8
+paginate: 6
+paginate_path: 'page:num'
+exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
 
-# other settings
-highlighter: rouge
+# Markdown
 markdown: kramdown
+highlighter: rouge
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
 
+RSS: false
+
+# Plugins
+gems: [jekyll-paginate]
