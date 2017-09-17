@@ -1,7 +1,7 @@
 # Site settings 配置站点
-title: '廖柯宇的独立博客'
-description: '昵称悟空，千禧一代，前端开发者/伪极客/灵魂摄影师，热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。'
-keyword: '廖柯宇, 廖柯宇的独立博客, 廖柯宇的博客, 前端, 前端开发, 前端博客, javascript, vuejs, nodejs, 设计'
+title: '朱国荣的独立博客'
+description: '昵称小猪猪，千禧一代，前端开发者/伪极客/灵魂摄影师，热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。'
+keyword: '朱国荣, 朱国荣的独立博客, 朱国荣的博客, 程序员, 前端开发, 前端博客, javascript, java, python, 设计'
 url: 'http://liaokeyu.com' # your host
 baseurl: '/'
 
@@ -11,7 +11,7 @@ nav:
   tags: '/tags.html'
 
 # Author 配置博主信息
-author: '廖柯宇'
+author: '朱国荣'
 nickname: '悟空'
 bio: '前端开发者，热爱技术&设计，简单乐观爱创造'
 avatar: 'assets/img/profile.png'
@@ -28,7 +28,7 @@ disqus_url: 'https://liaokeyu.disqus.com/embed.js'
 
 # Share
 social-share: true
-social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
+social-share-items: ['wechat', 'weibo', 'douban']
 
 # theme color 主题皮肤
 theme-color: 'default'  # pink or default
@@ -40,8 +40,8 @@ postPatterns: 'circuitBoard'
 sns:
   weibo: '//weibo.com/lovecolcol'
   juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
-  instagram: '//www.instagram.com/steveliaocn'
-  github: '//github.com/kaeyleo'
+  linkedin: '//www.linkedin.com/in/guorong-zhu-5910aa14b/'
+  github: '//github.com/zhuguorong11'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
